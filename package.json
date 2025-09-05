@@ -1,0 +1,47 @@
+{
+  "name": "vue-electron-desktop-template",
+  "version": "1.0.0",
+  "description": "Vue Electron 桌面应用基础模板",
+  "main": "background.js",
+  "author": "Your Name",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:generate-icons": "electron-icon-builder --input=./public/icon.png --output=./build --flatten",
+    "dev": "node scripts/dev.js",
+    "build:prod": "node scripts/build.js",
+    "setup": "node scripts/setup.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "bindings": "^1.5.0",
+    "pinia": "^2.1.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.2.9",
+    "@types/better-sqlite3": "^7.6.13",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.4",
+    "electron-devtools-installer": "^3.2.0",
+    "electron-rebuild": "^3.2.9",
+    "esbuild-loader": "^4.3.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^13.3.3",
+    "ts-loader": "^8.4.0",
+    "typescript": "^5.0.0",
+    "vue-cli-plugin-electron-builder": "~2.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

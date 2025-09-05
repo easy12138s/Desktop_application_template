@@ -1,0 +1,144 @@
+# 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 构建输出
+dist/
+dist_electron/
+build/
+
+# 本地环境文件
+.env.local
+.env.*.local
+
+# 日志文件
+logs
+*.log
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage目录（由nyc生成）
+coverage/
+*.lcov
+
+# nyc测试覆盖率
+.nyc_output
+
+# Grunt中间存储
+.grunt
+
+# Bower依赖目录
+bower_components
+
+# node-waf配置
+.lock-wscript
+
+# 编译后的二进制插件
+build/Release
+
+# TypeScript缓存
+*.tsbuildinfo
+
+# 可选的npm缓存目录
+.npm
+
+# 可选的eslint缓存
+.eslintcache
+
+# 可选的REPL历史
+.node_repl_history
+
+# 输出（bnpm pack）
+*.tgz
+
+# Yarn完整性文件
+.yarn-integrity
+
+# parcel-bundler缓存
+.cache
+.parcel-cache
+
+# Next.js构建输出
+.next
+
+# Nuxt.js构建/生成输出
+.nuxt
+dist
+
+# Gatsby文件
+.cache/
+public
+
+# Storybook构建输出
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.qoder/
+.trae/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Electron
+dist_electron/
+*.exe
+*.dmg
+*.deb
+*.rpm
+*.AppImage
+
+# 数据库文件
+*.sqlite
+*.sqlite3
+*.db
+
+# 用户数据
+user-data/
+app-data/
+
+# 环境特定文件
+.env.production
+.env.development
+
+# 备份文件
+*.bak
+*.backup
+
+# 编辑器临时文件
+*.tmp
+*.temp
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 应用特定
+dev-database.sqlite
+app-database.sqlite
+app-settings.json
+current-user.json
